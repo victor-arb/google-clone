@@ -35,3 +35,15 @@ nav .nav-right-section a{
     margin-right: 10px;
     color: #000
 }
+nav .nav-right-section .menu-icon{
+    background-image: url('../icons/apps-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /*Funciona como el object fit*/
+    width: 25px;
+    height: 25px;
+}
+nav .nav-right-section img{
+    border-radius: 50%; /*Formar un circulo*/
+    margin-left: 10px;
+}
