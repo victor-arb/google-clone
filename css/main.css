@@ -99,6 +99,7 @@ main .main-input .search-icon{
     background-size: contain;
     width: 18px;
     height: 18px;
+    margin-right: 10px;
 }
 main .main-input .micro-icon{
     background-image: url('../icons/Google_mic.svg.png');
@@ -131,6 +132,7 @@ main .main-buttons button:hover{
     box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
     color: #202124;
 }
+
 footer {
     width: 100%;
     height: 100px;
