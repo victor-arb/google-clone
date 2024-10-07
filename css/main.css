@@ -14,6 +14,9 @@ a {
     text-decoration: none;
     cursor: pointer; /*Viene activado por defectro*/
 }
+a:hover {
+    text-decoration: underline;
+}
 header {
     width: 100%;
     height: 60px;
@@ -42,6 +45,11 @@ nav .nav-right-section .menu-icon{
     background-size: contain; /*Funciona como el object fit*/
     width: 25px;
     height: 25px;
+    cursor: pointer;
+}
+nav .nav-right-section .menu-icon:hover{
+    background-color: #e4e4e4;
+    border-radius: 50%;
 }
 nav .nav-right-section img{
     border-radius: 50%; /*Formar un circulo*/
@@ -122,4 +130,34 @@ main .main-buttons button:hover{
     border: 1px solid #dadce0;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
     color: #202124;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    /*Asegurar que el footer siempre este al final de la pagina*/
+    position: absolute;
+    bottom: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left {
+    justify-content: left;
+}
+footer .footer-right {
+    justify-content: right;
+}
+footer ul li a {
+    margin: 10px;
+    color: #5f6368
 }
